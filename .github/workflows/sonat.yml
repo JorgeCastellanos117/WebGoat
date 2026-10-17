@@ -37,4 +37,5 @@ jobs:
           mvn -B -DskipTests verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=JorgeCastellanos117_WebGoat
+          -Dsonar.organization=jorgecastellanos117
           -Dsonar.host.url=https://sonarcloud.io
